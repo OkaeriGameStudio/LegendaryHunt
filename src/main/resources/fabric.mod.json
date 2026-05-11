@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "legendaryhunt",
+  "version": "${version}",
+  "name": "Legendary Hunt",
+  "description": "Cobblemon Legendary Hunting System",
+  "authors": [
+	"EasyMochi",
+	"Olivia"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/legendaryhunt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+	  "moe.okaeri.legendaryhunt.LegendaryHunt"
+	]
+  },
+  "depends": {
+	"fabricloader": ">=${loader_version}",
+	"fabric-api": "*",
+	"minecraft": "${minecraft_version}",
+	"fabric-language-kotlin": ">=${kotlin_version}",
+	"cobblemon": ">=${cobblemon_version}"
+  }
+}

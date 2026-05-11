@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ATA",
+    "BMB",
+    "CSC"
+  ],
+  "key": {
+    "A": {
+      "item": "legendaryhunt:thermocatalytic_reagent"
+    },
+    "T": {
+      "item": "cobblemon:fire_stone"
+    },
+    "B": {
+      "item": "minecraft:dripstone_block"
+    },
+    "M": {
+      "item": "legendaryhunt:memory_fragment"
+    },
+    "C": {
+      "item": "minecraft:cut_copper"
+    },
+    "S": {
+      "item": "cobblemon:fire_gem"
+    }
+  },
+  "result": {
+    "id": "legendaryhunt:volcanion_memory",
+    "count": 1
+  }
+}

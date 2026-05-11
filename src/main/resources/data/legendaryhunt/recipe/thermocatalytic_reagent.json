@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+	"N",
+	"W"
+  ],
+  "key": {
+	"N": {
+	  "item": "minecraft:netherite_scrap"
+	},
+	"W": {
+	  "item": "minecraft:potion"
+	}
+  },
+  "result": {
+	"id": "legendaryhunt:thermocatalytic_reagent",
+	"count": 1
+  }
+}

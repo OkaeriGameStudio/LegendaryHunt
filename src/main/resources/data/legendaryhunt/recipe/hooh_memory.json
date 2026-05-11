@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ATA",
+    "BMB",
+    "CSC"
+  ],
+  "key": {
+    "A": {
+      "item": "legendaryhunt:thermocatalytic_reagent"
+    },
+    "T": {
+      "item": "cobblemon:sun_stone"
+    },
+    "B": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "M": {
+      "item": "legendaryhunt:memory_fragment"
+    },
+    "C": {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    "S": {
+      "item": "cobblemon:fire_gem"
+    }
+  },
+  "result": {
+    "id": "legendaryhunt:hooh_memory",
+    "count": 1
+  }
+}

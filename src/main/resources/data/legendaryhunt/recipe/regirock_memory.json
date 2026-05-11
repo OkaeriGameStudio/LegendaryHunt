@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ATA",
+    "BMB",
+    "CSC"
+  ],
+  "key": {
+    "A": {
+      "item": "legendaryhunt:thermocatalytic_reagent"
+    },
+    "T": {
+      "item": "cobblemon:dawn_stone"
+    },
+    "B": {
+      "item": "minecraft:tuff"
+    },
+    "M": {
+      "item": "legendaryhunt:memory_fragment"
+    },
+    "C": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "S": {
+      "item": "cobblemon:rock_gem"
+    }
+  },
+  "result": {
+    "id": "legendaryhunt:regirock_memory",
+    "count": 1
+  }
+}

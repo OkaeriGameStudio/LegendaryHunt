@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ATA",
+    "BMB",
+    "CSC"
+  ],
+  "key": {
+    "A": {
+      "item": "legendaryhunt:thermocatalytic_reagent"
+    },
+    "T": {
+      "item": "cobblemon:water_stone"
+    },
+    "B": {
+      "item": "minecraft:blue_ice"
+    },
+    "M": {
+      "item": "legendaryhunt:memory_fragment"
+    },
+    "C": {
+      "item": "minecraft:light_blue_glazed_terracotta"
+    },
+    "S": {
+      "item": "cobblemon:water_gem"
+    }
+  },
+  "result": {
+    "id": "legendaryhunt:suicune_memory",
+    "count": 1
+  }
+}

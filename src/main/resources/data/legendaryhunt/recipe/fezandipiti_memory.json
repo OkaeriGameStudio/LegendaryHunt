@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ATA",
+    "BMB",
+    "CSC"
+  ],
+  "key": {
+    "A": {
+      "item": "legendaryhunt:thermocatalytic_reagent"
+    },
+    "T": {
+      "item": "cobblemon:shiny_stone"
+    },
+    "B": {
+      "item": "minecraft:magenta_terracotta"
+    },
+    "M": {
+      "item": "legendaryhunt:memory_fragment"
+    },
+    "C": {
+      "item": "minecraft:magenta_glazed_terracotta"
+    },
+    "S": {
+      "item": "cobblemon:poison_gem"
+    }
+  },
+  "result": {
+    "id": "legendaryhunt:fezandipiti_memory",
+    "count": 1
+  }
+}
