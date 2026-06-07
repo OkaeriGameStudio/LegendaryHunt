@@ -1,3 +1,6 @@
+import groovy.json.JsonGenerator
+import groovy.json.JsonSlurper
+
 plugins {
     id 'fabric-loom' version '1.16-SNAPSHOT'
     id 'maven-publish'
@@ -58,6 +61,19 @@ processResources {
                 "loader_version": project.loader_version,
                 "cobblemon_version": project.cobblemon_version,
                 "kotlin_version": project.kotlin_version
+    }
+
+    doLast {
+        def jsonSlurper = new JsonSlurper()
+        def jsonGenerator = new JsonGenerator.Options().disableUnicodeEscaping().build()
+
+        fileTree(destinationDir) {
+            include "assets/**/*.json"
+            include "data/**/*.json"
+        }.each { File jsonFile ->
+            def parsed = jsonSlurper.parse(jsonFile)
+            jsonFile.setText(jsonGenerator.toJson(parsed), "UTF-8")
+        }
     }
 }
 
