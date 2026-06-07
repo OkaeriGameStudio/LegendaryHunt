@@ -40,7 +40,7 @@ public final class ModLootTableModifiers {
 				return;
 			}
 
-			if (key == LootTables.FISHING_GAMEPLAY) tableBuilder.pool(memoryFragmentPool(LegendaryHuntConfig.get().memoryFragmentFishingChance));
+			if (LootTables.FISHING_GAMEPLAY.equals(key)) tableBuilder.pool(memoryFragmentPool(LegendaryHuntConfig.get().memoryFragmentFishingChance));
 		});
 	}
 
